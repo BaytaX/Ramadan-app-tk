@@ -1,0 +1,219 @@
+$breakpoints: (
+  //ph = Phone
+  "xsph-10": 18em,
+  "xsph-9": 22em,
+  "xsph-8": 25em,
+  "xsph-7": 30em,
+  "xsph-6": 34em,
+  "xsph-5": 38em,
+  "xsph-4": 40em,
+  "xsph-3": 44em,
+  "xsph-2": 48em,
+  "xsph": 52em,
+  "smph": 56em,
+  "mdph": 60em,
+  "lgph": 64em,
+  //tab = Tablet
+  "xstab": 68em,
+  "smtab": 72em,
+  "mdtab": 76em,
+  "lgtab": 80em,
+  //desktop
+  "xs": 84em,
+  "sm": 88em,
+  "md": 92em,
+  "lg": 96em,
+  "xl": 102em
+);
+
+@mixin xsph-10 {
+  @media (max-width: map-get($breakpoints, "xsph-10")) {
+    @content;
+  }
+}
+@mixin xsph-9 {
+  @media (max-width: map-get($breakpoints, "xsph-9")) {
+    @content;
+  }
+}
+@mixin xsph-8 {
+  @media (max-width: map-get($breakpoints, "xsph-8")) {
+    @content;
+  }
+}
+@mixin xsph-7 {
+  @media (max-width: map-get($breakpoints, "xsph-7")) {
+    @content;
+  }
+}
+@mixin xsph-6 {
+  @media (max-width: map-get($breakpoints, "xsph-6")) {
+    @content;
+  }
+}
+@mixin xsph-5 {
+  @media (max-width: map-get($breakpoints, "xsph-5")) {
+    @content;
+  }
+}
+@mixin xsph-4 {
+  @media (max-width: map-get($breakpoints, "xsph-4")) {
+    @content;
+  }
+}
+@mixin xsph-3 {
+  @media (max-width: map-get($breakpoints, "xsph-3")) {
+    @content;
+  }
+}
+@mixin xsph-2 {
+  @media (max-width: map-get($breakpoints, "xsph-2")) {
+    @content;
+  }
+}
+@mixin xsph {
+  @media (max-width: map-get($breakpoints, "xsph")) {
+    @content;
+  }
+}
+@mixin smph {
+  @media (max-width: map-get($breakpoints, "smph")) {
+    @content;
+  }
+}
+
+@mixin mdph {
+  @media (max-width: map-get($breakpoints, "mdph")) {
+    @content;
+  }
+}
+
+@mixin lgph {
+  @media (max-width: map-get($breakpoints, "lgph")) {
+    @content;
+  }
+}
+
+@mixin xstab {
+  @media (max-width: map-get($breakpoints, "xstab")) {
+    @content;
+  }
+}
+
+@mixin smtab {
+  @media (max-width: map-get($breakpoints, "smtab")) {
+    @content;
+  }
+}
+
+@mixin mdtab {
+  @media (max-width: map-get($breakpoints, "mdtab")) {
+    @content;
+  }
+}
+
+@mixin lgtab {
+  @media (max-width: map-get($breakpoints, "lgtab")) {
+    @content;
+  }
+}
+
+@mixin xs {
+  @media (max-width: map-get($breakpoints, "xs")) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (max-width: map-get($breakpoints, "sm")) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: map-get($breakpoints, "md")) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (max-width: map-get($breakpoints, "lg")) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (max-width: map-get($breakpoints, "xl")) {
+    @content;
+  }
+}
+
+//html
+html {
+  @include xl {
+    font-size: 53%;
+  }
+  @include lg {
+    font-size: 50%;
+  }
+  @include md {
+    font-size: 48%;
+  }
+  @include sm {
+    font-size: 46%;
+  }
+  @include xs {
+    font-size: 42%;
+  }
+  @include lgtab {
+    font-size: 40%;
+  }
+  @include mdtab {
+    font-size: 38%;
+  }
+  @include smtab {
+    font-size: 36%;
+  }
+  @include xstab {
+    font-size: 34%;
+  }
+  @include lgph {
+    font-size: 32%;
+  }
+  @include mdph {
+    font-size: 30%;
+  }
+  @include smph {
+    font-size: 28%;
+  }
+  @include xsph {
+    font-size: 26%;
+  }
+  @include xsph-2 {
+    font-size: 24%;
+  }
+  @include xsph-3 {
+    font-size: 22%;
+  }
+  @include xsph-4 {
+    font-size: 20%;
+  }
+  @include xsph-5 {
+    font-size: 18%;
+  }
+  @include xsph-6 {
+    font-size: 16%;
+  }
+  @include xsph-7 {
+    font-size: 14%;
+  }
+  @include xsph-8 {
+    font-size: 12%;
+  }
+  @include xsph-9 {
+    font-size: 10%;
+  }
+  @include xsph-10 {
+    font-size: 8%;
+  }
+}

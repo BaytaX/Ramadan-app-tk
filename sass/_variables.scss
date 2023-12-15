@@ -1,0 +1,50 @@
+// theme colors
+$primary: #7b61ff0d !default;
+$secondary: #b485ff !default;
+$tertiary: #a166ff !default;
+$titlepurple: #3d065f;
+$purple: #5a3583;
+$darkpurple: #28104e !default;
+$black: #2e193e !default;
+$gray: #848484;
+$yellow: #ffcf2b;
+$error: #d32752 !default;
+$info: #f6c31c !default;
+
+// color palette
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "tertiary": $tertiary,
+  "purple": $purple,
+  "darkpurple": $darkpurple,
+  "yellow": $yellow,
+  "pink": #fbf2ff,
+  "gray": #848484,
+  "black": #2e193e,
+
+  "error": $error,
+  "info": $info,
+  "red": #e61919,
+  "green": #19e635,
+  "orange": #ffa600,
+  "white": white,
+) !default;
+
+// spacing
+$base-padding: 1rem !default;
+$base-margin: 1rem !default;
+
+// borders
+$base-border-thickness: 1px !default;
+$base-border-radius: 3rem !default;
+
+// box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !default;
+
+// font sizes
+$base-font-size: 1rem !default;
+$font-size-sm: $base-font-size * 0.75 !default;
+$font-size-lg: $base-font-size * 1.5 !default;
+$font-size-xl: $base-font-size * 2 !default;
+$font-size-xxl: $base-font-size * 3 !default;

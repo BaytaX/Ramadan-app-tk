@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700&display=swap");
+
+@mixin title-res {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 11rem;
+  font-weight: 700;
+}
+
+.navbar-res {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 16rem;
+  background-image: url("../../img/Frame 497.png");
+  background-size: cover;
+  width: 100%;
+  height: 60rem;
+  padding-top: 14rem;
+  @include lgph {
+    display: block;
+  }
+  .navbar-res-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    .navbar-res-ara-title {
+      color: #987644;
+      @include title-res;
+      margin-left: -24rem;
+      font-family: "Rubik", sans-serif;
+      font-weight: 600;
+    }
+    .navbar-res-en-title {
+      color: #574747;
+      @include title-res;
+    }
+  }
+
+  .navbar-res-logo {
+    position: absolute;
+    width: 20rem;
+    right: 28%;
+    top: 16%;
+  }
+}
